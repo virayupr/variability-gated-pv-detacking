@@ -1,0 +1,5 @@
+System,Strategy,Active_days,Activation_pct,Mean_Energy_Penalty_pct,Mean_CSI2_Reduction_pct,Mean_Tmax_Reduction_C,Mean_Intervention_Minutes,Mean_Angle_Changes,CSI2_Benefit_per_Energy
+2018 System 1,Always available,39,100.000,0.285,-1.932,0.064,7.103,2.718,-6.770
+2018 System 1,NRI >= 0.090 gated,10,25.641,0.266,0.094,0.064,5.821,2.205,0.354
+2018 System 2A,Always available,39,100.000,0.294,-0.190,0.028,9.436,3.615,-0.647
+2018 System 2A,NRI >= 0.090 gated,8,20.513,0.173,0.057,0.005,4.949,1.897,0.329
