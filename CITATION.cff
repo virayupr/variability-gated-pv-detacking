@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or reproducibility workflow, please cite the associated manuscript."
+title: "Variability-Gated Predictive Detacking for Reliability-Aware Photovoltaic Tracking"
+type: software
+authors:
+  - family-names: "N"
+    given-names: "Vivekanandan"
+    email: "n.vivekanandan@pccoepune.org"
+  - family-names: "K"
+    given-names: "Rajeswari"
+    email: "kannan.rajeswari@pccoepune.org"
+  - family-names: "Salve"
+    given-names: "Sanjay"
+    email: "sanjay.salve@pccoepune.org"
+repository-code: "https://github.com/virayupr/variability-gated-pv-detacking"
+license: MIT
+date-released: 2026-08-27
+preferred-citation:
+  type: article
+  title: "Variability-Gated Predictive Detacking for Reliability-Aware Photovoltaic Tracking: A Field-Data-Driven Demonstration of Thermal-Cycle Mitigation"
+  authors:
+    - family-names: "N"
+      given-names: "Vivekanandan"
+    - family-names: "K"
+      given-names: "Rajeswari"
+    - family-names: "Salve"
+      given-names: "Sanjay"
+  year: 2026
+  notes: "Manuscript submitted to Solar Energy; update this citation with DOI and publication metadata after acceptance."
