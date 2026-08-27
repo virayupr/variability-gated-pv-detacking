@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local/raw datasets (obtain from original public source)
+data/*.dat
+data/*.csv
+data/*.zip
+
+# Generated local outputs
+results/*.png
+results/*.pdf
+results/*.csv
+results/*.xlsx
