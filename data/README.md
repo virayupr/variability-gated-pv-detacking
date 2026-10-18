@@ -1,12 +1,11 @@
-# Data acquisition
+# Data acquisition and provenance
 
-Raw field measurements are intentionally not redistributed here.
+External field-measurement data are **not redistributed** in this repository.
 
-The study uses the public PV module-temperature dataset associated with Barry et al., available from **Zenodo, DOI 10.5281/zenodo.3958820**:
-
+Original public dataset associated with Barry et al., Zenodo DOI **10.5281/zenodo.3958820**:
 https://doi.org/10.5281/zenodo.3958820
 
-Download the following one-minute files from the original repository and place them in this `data/` directory:
+Download the original one-minute measurements identified by the source archive:
 
 ```text
 PV_temperature_model_data_2019_System_2B_1min.dat
@@ -14,14 +13,8 @@ PV_temperature_model_data_2018_System_1_1min.dat
 PV_temperature_model_data_2018_System_2A_1min.dat
 ```
 
-## Role of each dataset
+The 2019 System 2B record was used for development; 2018 System 1 and 2A were used for the reported external evaluation, **39 eligible days each** after applicable filtering. Both 2018 systems were inspected during broader development; describe this as an external cross-system retrospective evaluation, **not completely untouched prospective validation**.
 
-- **2019 System 2B** — primary development dataset used for model fitting, controller demonstration, daily NRI analysis, and sensitivity evaluation.
-- **2018 System 1** — independent cross-system validation.
-- **2018 System 2A** — independent cross-system validation.
+The revised frozen causal supervisory rule uses **only the preceding 30 minutes of irradiance**, threshold 0.12. Earlier historical analysis using a retrospectively calculated **completed-day** NRI threshold of 0.090 is distinct from that rule. See the top-level README.
 
-The manuscript reports 69,185 one-minute records in the System 2B source file spanning 25 June–12 August 2019. Quality-control and daylight filters are applied in the analysis workflow.
-
-## Licensing and provenance
-
-Please cite the original dataset/publication when reusing these measurements. Dataset rights and licensing remain with the original data creators/source; the MIT license in this repository does not apply to these external files.
+Cite the original data creators and source. The repository MIT license does not transfer rights in externally owned data.
