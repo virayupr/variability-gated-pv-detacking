@@ -1,0 +1,3 @@
+system,eligible_days,mean_daily_closed_cycle_CSI2_reduction_pct,pooled_closed_cycle_CSI2_reduction_pct,mean_daily_CI_low_pct,mean_daily_CI_high_pct,source_status
+2018 System 1,39,-1.7698,0.5576,-5.3583,0.3840,archived_not_rerun
+2018 System 2A,39,-0.4482,0.2366,-1.2273,0.2474,archived_not_rerun
