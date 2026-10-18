@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+scikit-learn
+pvlib>=0.10
+rainflow==3.2.0
+# Review-only requirements; NOT a pinned lockfile.
