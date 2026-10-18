@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this software or reproducibility workflow, please cite the associated manuscript."
-title: "Variability-Gated Predictive Detacking for Reliability-Aware Photovoltaic Tracking"
+message: "If you use this research software, please cite this repository and its associated manuscript when available."
+title: "Causal Irradiance-Ramp-Gated Detacking for Photovoltaic Thermal-Cycle Assessment"
 type: software
 authors:
   - family-names: "N"
@@ -17,7 +17,7 @@ license: MIT
 date-released: 2026-08-27
 preferred-citation:
   type: article
-  title: "Variability-Gated Predictive Detacking for Reliability-Aware Photovoltaic Tracking: A Field-Data-Driven Demonstration of Thermal-Cycle Mitigation"
+  title: "Causal Irradiance-Ramp-Gated Detacking for Photovoltaic Thermal-Cycle Assessment"
   authors:
     - family-names: "N"
       given-names: "Vivekanandan"
@@ -26,4 +26,4 @@ preferred-citation:
     - family-names: "Salve"
       given-names: "Sanjay"
   year: 2026
-  notes: "Manuscript submitted to Solar Energy; update this citation with DOI and publication metadata after acceptance."
+  notes: "Manuscript SEJ-D-26-04126 under review at Solar Energy; no publication DOI or acceptance claimed."
