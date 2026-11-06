@@ -28,6 +28,12 @@ Including rainflow residual half-cycles changes the mean-daily estimates to +0.2
 
 The optical penalties are based on an **unvalidated cosine-based attenuation model**; they are not measured electrical-energy losses. Neither physical detacking, field reliability, fatigue damage, nor module lifetime was validated.
 
+## Evaluation independence and terminology (R2 reviewer clarification)
+
+The appropriate designation for the 2018 Systems 1 and 2A assessment is **cross-system external evaluation** (exploratory, retrospective). Although the controller settings were held fixed for the reported runs, the 2018 records had already been inspected during broader methodological development. Consequently, these results must **not** be described as independent cross-system validation, an independent-system validation workflow, a prospectively preregistered test, or an untouched held-out evaluation. This qualification applies to manuscript descriptions, repository documentation, notebooks, and any reuse of archived outputs.
+
+Historical artifacts can retain legacy filenames for traceability; a filename is **not** evidence of methodological independence. In particular, `results/independent_validation_results.csv` is a legacy filename for the earlier completed-day NRI ≥ 0.090 evaluation and does not represent the revised causal NRI = 0.12 results. Do not rename or overwrite this archived file without separately checking references and reproducibility dependencies.
+
 ## Historical material retained for provenance
 
 The 2019 System 2B development event previously illustrated a modelled 1.351 °C peak-temperature reduction, 9.354% closed-cycle CSI² reduction and 1.865% optical penalty. That single selected event is **not representative** of the revised 2018 external mean-daily findings.
